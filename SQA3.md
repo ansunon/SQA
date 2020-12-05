@@ -9,7 +9,7 @@
 
 ## Test Level 상세
 ### 컴포넌트(단위) 테스팅(Component/Unit Testing)
-   - 개념: 테스팅 가능한 최소 단위로 분리된 소프트웨어 내에서 결함을 찾고 그 기능을 검증하는 활동
+   - 개념: 테스팅 가능한 최소 단위로 분리된 소프트웨어 내에서 결함을 찾고 그 기능을 검증하는 활동</br>
     - 컴포넌트 정의: Function, Module, Object, Class 등 </br>
 
 - 목적
@@ -29,6 +29,7 @@
         (= 테스트 대상이 되는 컴포넌트를 호출해준다.)
     - Test Stub(스텁): 시험 대상 모듈이 호출하는 다른 기능을 간략하게 수행, 메시지 출력, 상수값 반환 등</br>
         (= 다른 모듈)
+    - Test Harness = Test Driver + Test Stub
 
 
 ### 통합 테스팅(Integration Testing)
