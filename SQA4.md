@@ -45,13 +45,13 @@ ISO(국제 표준화 기구)에서 제겅한 Software 품질 평가를 위한 So
 
 #### 구조적 테스팅(Structural Testing)
 - 개념: 컴포넌트나 시스템의 특정 유형의 구조 커버리지를 평가하여 테스팅의 보장성/충분성(Troroughness)을 추정하는 테스트 활동
-    - 커버리지: 시스템 또는 소프트웨어의 구조가 테스트된 정도를 정량적으로 기술
-</br>
+    - 커버리지: 시스템 또는 소프트웨어의 구조가 테스트된 정도를 정량적으로 기술</br>
+
 - 구조 기반 테스트(Structure based Test) 수행
     - 컴포넌트나 시스템의 내부 구조를 분석하여 Test Case 도출
         - 제어 흐름 모델 (Control flow model)
-        - 메뉴 구조 모델 (Menu Structure model, Window navigation flow)
-</br>
+        - 메뉴 구조 모델 (Menu Structure model, Window navigation flow)</br>
+
 - 특징
     - 모든 테스트 레벨에서 수행
         - 통합 테스트: Call Tree 구조 등
@@ -59,9 +59,9 @@ ISO(국제 표준화 기구)에서 제겅한 Software 품질 평가를 위한 So
 
 #### 확인/리그레션 테스팅(Confirmation and Regression Testing)
 - 확인 테스팅(Confirmation Testing): 발견된 결함이 수정되어 제거 되었는지 확인하기 위한 테스팅 활동
-- 리그레션 테스팅(Regression Testing): 수정에 따른 신규 결함이 유입 되었는지 확인하기 위한 테스팅 활동
-</br>
+- 리그레션 테스팅(Regression Testing): 수정에 따른 신규 결함이 유입 되었는지 확인하기 위한 테스팅 활동</br>
+
 - 특징
-    - ※ Debugging 은 결함을 해결하는 활동으로 Testing 활동이 아니다.
-    - ※ 기존 Test Case 반복 수행하므로 자동화 대상이 된다.
+    - Debugging 은 결함을 해결하는 활동으로 Testing 활동이 아니다.
+    - 기존 Test Case 반복 수행하므로 자동화 대상이 된다.
 
