@@ -53,3 +53,52 @@
     <td>테스트 수행 결과 판정(Pass/Fail/Not Tested/Blocked)</td>
   </tr>
 </table>
+
+#### 테스트 설계 기법의 구분 
+> 테스트 대상을 인삭하는 방법에 따라 달라진다
+
+<table>
+    <tr>
+        <td>종류</td>
+        <td>특징</td>
+    </tr>
+    <tr>
+        <td rowspan="3">블랙 박스 테스트</td>
+        <td>시스템 내부 구조를 고려하지 않음</td>
+    </tr>
+    <tr>
+        <td>Test basis/개발자 및 테스터 경험 분석</td>
+    </tr>
+    <tr>
+        <td>주로 Software의 행동(behavior)에 대해 노력 집중</td>
+    </tr>
+    <tr>
+        <td rowspan="3">화이트 박스 테스트</td>
+        <td>컴포넌트/소프트웨어 내부구조를 분석</td>
+    </tr>
+    <tr>
+        <td>주로 개발단계에서 수행</td>
+    </tr>
+    <tr>
+        <td>소프트웨어 내부 구조와 동작 검증에 집중</td>
+    </tr>
+</table>
+
+#### 테스트 설계 기법의 구분
+> 테스트 설계의 근원을 기준
+
+<table>
+    <tr>
+        <td rowspan="3">동적 테스트</td>
+        <td>명세 기반 기법(Specification Based)</td>
+        <td>테스트 베이시스 분석을 통한 Test Case 설계</td>
+    </tr>
+    <tr>
+        <td>구조 기반 기법(Structure Based)</td>
+        <td>소스 코드/모델 등 구현정보를 기반으로 Test Case 설계</td>
+    </tr>
+    <tr>
+        <td>경험기반 기법(Experience Based) + 추가적</td>
+        <td>개발자/테스터의 지식이나 경험을 기반으로 Test Case 설계</td>
+    </tr>
+</table>
