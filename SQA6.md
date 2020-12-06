@@ -51,4 +51,20 @@
 </table>
 
 
-### ② 경계값 분석(Boundary Value Anaysis)
+#### ② 경계값 분석(Boundary Value Anaysis)
+> 입력값의 주요 오류 대상인 경계값을 테스트 데이터로 선정하는 기법
+- 경험적으로 개발자가 경계값 처리시 오류 발생 가능성이 높기 때문에 경계값 주변값을 위주로 분석
+- 경계값: 해당 분할 영역의 최대값과 최소값(유효 경계값/ 비유효 경계값 등)
+- Boolean 값은 적절하지 않음
+> 동등 Class 식별 ▶ 엽력값 경계 식별 ▶ 경계값 설정 ▶ Test Case 작성</br>
+
+- 경계값 선택 기준
+> Equivalence Class 를 찾은 후 대표값을 선택할 때 경계값과 그 전후의 값들을 사용한다.
+
+![경계값 분석](https://e7.pngegg.com/pngimages/442/750/png-clipart-black-box-testing-software-testing-boundary-value-analysis-white-box-testing-equivalence-partitioning-text-edit-box-angle-text.png)
+
+- 등가 분할 및 경계값 분석 기법의 한계점
+    - 일련의 동작에 대한 조합을 테스트하기에는 적합하지 않다.
+    - 입력 범위를 동등분할하여 제한하더라도 입력값 조합의 수가 테스트 가능한 수를 넘어서는 경우가 많다.
+    - 입력 조합이 상호간에 독립적(의존성 없는)이라는 가정에서만 적합한 기법이다.
+    - 출력이 입력 조건이나 변수들 사이의 관계에 따라 달라지는 경우, 입력조건을 동등분할 하는 것이 매우 어려울 수 있다.
